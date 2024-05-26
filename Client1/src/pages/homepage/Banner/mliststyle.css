@@ -1,0 +1,27 @@
+
+.movielist
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: 10vh;
+    width: 25vw;
+}
+.movieicon
+{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+
+}
+.moviedescription
+{
+    width: auto;
+    background-color: #f6f3f3;
+    margin-left: 170px;
+    height: auto;
+    margin-top: 0px;
+
+}

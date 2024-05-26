@@ -1,0 +1,76 @@
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #070345;
+    height: 100vh;
+    text-align: center;
+}
+
+.guidelines {
+    background-color: #1a0e52;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 70%;
+    border :1px solid white;
+    
+}
+
+.guidelines-header {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #c6bebe;
+}
+
+.guidelines-list {
+    list-style-type: disc;
+    margin: 0;
+    padding-left:50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    color:black;
+
+}
+
+.guidelines-list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.watch-button, .home-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.watch-button {
+    background-color: #28a745;
+}
+
+.watch-button:hover {
+    background-color: #218838;
+}
+
+.home-button {
+    background-color: #dc3545;
+}
+
+.home-button:hover {
+    background-color: #c82333;
+}
+.payment
+{
+    margin-top: 20px;
+    font-size: 20px;
+}

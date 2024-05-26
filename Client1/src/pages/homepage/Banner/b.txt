@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&display=swap');
+.bannerclass
+{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.bannertxt
+{
+    color:#CADCFC;
+    max-width: 800px;
+    line-height: 100px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 40px;
+    font-style:normal;
+    font-size: 90px;
+}

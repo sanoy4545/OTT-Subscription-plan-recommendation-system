@@ -1,0 +1,157 @@
+
+*{
+    color: white;
+}
+
+.headtkrent
+{
+    
+    color: white;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 40px;
+    font-style:normal;
+    font-size: 50px;
+    margin-top: 40px;
+   text-align: center;
+
+}
+.paratkrent
+{
+    color: white;
+    margin-top: 30px;
+    font-size: 5;
+    max-width: 600px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 2;
+    text-align: center;
+    margin-left: 450px;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    
+}
+
+.formname
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(55, 30, 113,0.3);
+    height: 400px;
+    width: 500px;
+    margin-left: 10px;
+
+}
+
+.selectplat
+{
+    width: 330px;
+    height: 25px;
+    background-color:rgba(53, 81, 126, 0.7);
+    border-color:rgba(53, 81, 126, 0.7) ;
+}
+
+.totalrslt
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.results
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 490px;
+    width: 600px;
+    margin-right: 10px;
+    background-color: rgb(55, 30, 113,0.3);
+
+}
+
+.hourschoose
+{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Lilita One", sans-serif;
+}
+
+.platformchoose
+{
+    font-size: 20px;
+    font-family:"Lilita One", sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.platchoose
+{
+    width: 330px;
+    height: 25px;
+    background-color:rgba(53, 81, 126, 0.7);
+    border-color:rgba(53, 81, 126, 0.7) ;
+}
+.subbutton
+{
+background-color: rgb(23, 11, 73);
+padding: 10px 20px;
+border-radius: 5px;
+font-size: medium;
+}
+
+.verticalline4
+{
+    border-right: 1px solid rgb(183, 188, 215);
+    height: 400px;
+    margin-top:50px;
+    margin-left:60px;
+
+}
+label
+{
+    margin-bottom: 15px;
+}
+.tkhd
+{
+    color: rgb(242, 241, 241);
+font-family: "Lilita One", sans-serif;
+font-weight: 40px;
+font-style:normal;
+font-size: 43px;
+margin-bottom: 25px;
+margin-top: 15px;
+text-align: center;
+}
+
+.result-item
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(12, 12, 97,0.6);
+    width: 350px;
+    height: 150px;
+    padding: 20px;
+    border:1px solid white;
+    margin-bottom: 10px;
+    
+
+}
+.result-item h3{
+    margin-top: 2px;
+}
+
+.rentbtn
+{
+    background-color: blueviolet;
+    height: 50px;
+    width: 90px;
+    margin-top:10px;
+    border-radius: 10px;
+}

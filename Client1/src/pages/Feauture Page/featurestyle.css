@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+.feauturelink
+{
+    color:white;
+    margin-top: 70px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 40px;
+    font-style:normal;
+    font-size: 30px;
+
+}
+
+.feauturepara
+{
+    color: white;
+    max-width: 700px;
+    margin-left: 20px;
+    margin-top: 40px;
+    line-height: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.feauturebox
+{
+    margin-top: 30px;
+    height: 420px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#box1
+{
+    height:340px;
+    width: 340px;
+    transition: transform 0.4s; 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 200px;
+   
+
+}
+
+.boxeffect
+{
+    text-align: center;
+    padding-top:15px ;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: rgba(255, 250, 250, 0.862);
+    background: rgba(0, 10, 45, 0.707);
+    border: 1px solid rgba(33, 93, 142, 0.507);
+    transform: translatey(0px);
+	animation: float 2.5s ease-in-out infinite;
+    
+}
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+.boxeffect:hover
+{
+
+    transform: scale(1.1);
+    border: 1px solid white;
+    box-shadow: #f6f3f3;
+   
+}
+.ftparabox
+{
+    max-width: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.ftpara
+{
+    text-align: center;
+    
+    font-size: medium;
+    font-weight: 100;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 20px;
+    padding: 25px;
+}
+
+.ftbt
+{
+    width: 120%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: #f6f3f3;
+    background: #3d3fc2;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.bt2
+{
+    padding: 12px;
+    text-align: center;
+}
+.bt3
+{
+    padding: 12px;
+}

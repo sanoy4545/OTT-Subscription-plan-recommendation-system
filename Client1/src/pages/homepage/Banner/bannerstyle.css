@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&display=swap');
+.finalBanner
+{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+.fullbanner
+{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.bannerclass
+{
+    animation:slide-right 1.5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-duration: 1.5s;
+}
+
+
+@keyframes slide-right
+{
+    0%
+    {transform:translateX(-30px)}
+    100%
+    {transform:translateX(15px)}}
+
+.bannertxt
+{
+    margin-top: 55px;
+    color:white;
+    max-width: 800px;
+    line-height: 100px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 40px;
+    font-style:normal;
+    font-size: 85px;
+    margin-left: 80px;
+    animation:slide-right 1.5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-duration: 1.5s;
+   /* background: -webkit-linear-gradient(rgb(202,220,252), rgb(151, 176, 216));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+}
+
+.bannerpara
+{
+    color: white;
+    max-width: 800px;
+    margin-left: 55px;
+    margin-top: 40px;
+    line-height: 25px;
+    animation:slide-rightpara 1.5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-duration: 1.5s;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+}
+
+@keyframes slide-rightpara
+{
+    0%
+    {transform:translateX(-50px)}
+    100%
+    {transform:translateX(25px)}}
+
+.loginstart {
+    width: 170px;
+    height: 60px;
+    margin-top: 80px;
+    margin-left: 350px;
+    text-align: center;
+    color: #f6f3f3;
+    background: #3d3fc2;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    animation:slide-rightbtn 1.5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-duration: 1.5s;
+}   
+
+
+@keyframes slide-rightbtn
+{
+    0%
+    {transform:translateX(-30px)}
+    100%
+    {transform:translateX(35px)}
+}
+
+.verticalline
+{
+    border-right: 1px solid rgb(183, 188, 215);
+    height: 590px;
+    margin-top:48px;
+    margin-left:90px;
+    animation:slide-rightline 1.5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-duration: 1.5s;
+  }
+
+  
+@keyframes slide-rightline
+{
+    0%
+    {transform:translateY(-40px)}
+    100%
+    {transform:translateY(10px)}
+}
+.movies
+{
+    
+    background-color:rgba(16, 49, 69, 0.148);
+    height: 75vh;
+    width: 30vw;
+    margin-top: 55px;
+    animation:slide-rightbox 1.5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-duration: 1.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+   
+
+}
+
+@keyframes slide-rightbox
+{
+    0%
+    {transform:translateX(100px)}
+    100%
+    {transform:translateX(10px)}
+}
+.movieheading
+{
+    color:rgb(227, 227, 227);
+    font-family: "Lilita One", sans-serif;
+    font-weight: 40px;
+    font-style:normal;
+    font-size: 50px;
+
+}

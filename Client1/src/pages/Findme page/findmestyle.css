@@ -1,0 +1,73 @@
+.findme-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .findme-text {
+    max-width: 400px;
+  }
+  
+  .findme-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .findme-para {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .findme-image {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ccc;
+  }
+  
+  .findme-form {
+    max-width: 400px;
+  }
+  
+  .findme-form-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .findme-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .findme-input,
+  .findme-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .findme-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .findme-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .findme-form-status {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+  }
+  

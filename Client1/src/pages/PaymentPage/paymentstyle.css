@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Global */
+* {
+    box-sizing: border-box;
+}
+ 
+.payhead
+{
+    text-align: center;
+    color: white;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 40px;
+    font-style:normal;
+    font-size: 50px;
+    margin-top: 40px;
+ 
+}
+
+.paypara
+{
+    text-align: center;
+    margin-left: 500px;
+    color: white;
+    margin-top: 30px;
+    font-size: 5;
+    max-width: 500px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 2;
+
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+    
+
+}
+
+/* Credit Card */
+.credit-card {
+    width: 360px;
+    height: 400px;
+    margin: 60px auto 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: rgba(87, 86, 86, 0.571);
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+}
+
+.form-header {
+    height: 60px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid #e1e8ee;
+}
+ 
+.form-body {
+    height: 340px;
+    padding: 30px 30px 20px;
+}
+
+/* Title */
+.title {
+    font-size: 18px;
+    margin: 0;
+    color: #dfe2e4;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:800;
+}
+/* Common */
+.card-number,
+.cvv-input input,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+    height: 30px;
+    background-color:rgba(11, 17, 69, 0.5);
+    color: black;
+}
+ 
+.card-number,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+ 
+.card-number,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+    opacity: .7;
+    color: #e6e7e8;
+}
+
+/* Card Number */
+.card-number {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+ 
+}
+/* Date Field */
+.month select,
+.year select {
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: url('caret.png') no-repeat;
+    background-position: 85% 50%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color:rgba(11, 17, 69, 0.5);
+ 
+}
+
+ 
+.month select {
+    float: left;
+}
+ 
+.year select {
+    float: right;
+}
+/* Card Verification Field */
+.cvv-input input {
+    float: left;
+    width: 145px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: #fff;
+    background-color:rgba(11, 17, 69, 0.5);
+}
+ 
+.cvv-details {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    float: right;
+    margin-bottom: 20px;
+}
+ 
+.cvv-details p {
+    margin-top: 6px;
+}
+/* Buttons Section */
+.paypal-btn,
+.proceed-btn {
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-color: transparent;
+    border-radius: 6px;
+    height: 30px;
+    
+}
+ 
+.proceed-btn {
+    margin-bottom: 10px;
+    background: #7dc855;
+    
+}
+ 
+.paypal-btn a,
+.proceed-btn a {
+    text-decoration: none;
+
+
+}
+ 
+.proceed-btn a {
+    color: #fff;
+}
+ 
+.paypal-btn a {
+    color: rgba(242, 242, 242, .7);
+}
+ 
+.paypal-btn {
+    padding-right: 95px;
+    background: url('paypal-logo.svg') no-repeat 65% 56% #009cde;
+    padding-left: 90px;
+}
+
+.year-select
+.month-select
+{
+    background-color:rgba(11, 17, 69, 0.5);
+    color: black;
+}
+.price-display
+{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+::placeholder
+{
+    color: white;
+}

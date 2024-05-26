@@ -1,0 +1,150 @@
+body
+{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.abttext
+{
+    display: flex;
+    flex-direction: column;
+   height: 250px;
+}
+.abthead
+{
+    color: white;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 40px;
+    font-style:normal;
+    font-size: 50px;
+    margin-top: 60px;
+    
+
+
+}
+.abtpara
+{
+    
+    color: white;
+    margin-top: 10px;
+    font-size: 5;
+    max-width: 600px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.ustext
+{
+    background-color: rgba(17, 29, 101, 0.363);
+    margin-top: 0px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.us1
+{
+    background-color: rgba(1, 9, 45, 0.61);
+   height: 400px;
+    width: 500px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+   
+ }
+/* .verticalline3
+{
+    border-right: 1px solid rgb(183, 188, 215);
+    height: 500px;
+
+    margin-left:50px;
+    margin-right: 35px;
+    animation:slide-rightline3 1.5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-duration: 1.5s;
+}
+@keyframes slide-rightline3
+{
+    0%
+    {transform:translateX(-50px)}
+    100%
+    {transform:translateX(0px)}
+}  */
+
+.usimg1
+{
+    background-color: bisque;
+    border-radius:80px ;
+    height: 120px;
+    width: 120px;
+    margin-top: 25px;
+    margin-left: 90px;
+}
+.us1txt
+{
+    color: white;
+    max-width: 200px;
+    padding-left: 70px;
+    padding-top: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: small;
+    line-height: 20px;
+ 
+}
+
+.l1
+{ animation:slide-rightbox1 1.5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-duration: 1.5s;
+}
+.l2
+{ animation:slide-rightbox2 1.5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-duration: 1.5s;
+}
+
+.r1{
+
+    animation:slide-rightpara1 1.5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-duration: 1.5s;
+
+}
+.r2{
+
+    animation:slide-rightpara2 1.5s cubic-bezier(.25,.46,.45,.94) both;
+    animation-duration: 1.5s;
+
+}
+@keyframes slide-rightpara1
+{
+    0%
+    {transform:translateX(-50px)}
+    100%
+    {transform:translateX(0px)}
+}
+
+@keyframes slide-rightpara2
+{
+    0%
+    {transform:translateX(-200px)}
+    100%
+    {transform:translateX(0px)}
+}
+@keyframes slide-rightbox1
+    {
+        0%
+        {transform:translateX(400px)}
+        100%
+        {transform:translateX(0px)}
+    }
+    
+@keyframes slide-rightbox2
+{
+    0%
+    {transform:translateX(100px)}
+    100%
+    {transform:translateX(0px)}
+}
+

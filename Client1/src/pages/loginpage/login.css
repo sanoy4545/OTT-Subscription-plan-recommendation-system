@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.login-container
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url('back2.png');
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    
+    }
+
+.logo
+{
+    position: fixed;
+    left:50px;
+    top:20px;
+    color:#3d3fc2;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    
+
+}
+.login {
+    position: fixed;
+    margin-top: 8rem;
+    margin-left: 32rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(3, 22, 108, 0.593);
+    border-radius: 10px;
+    width: 360px;
+    height: 490px;
+    padding: 50px 60px 40px;
+    margin-bottom: 7rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+
+::-webkit-input-placeholder
+{
+    padding-left :5px;
+}   
+
+
+.login__title {
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.login__group__input {
+    width: 100%;
+    color: #fff9f9;
+    background:	 rgb(51,51,51,0.2);
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border:  1px solid rgb(212, 200, 200,0.6);
+    line-height: 50px;
+}
+.login__group__input::placeholder
+{
+    color: white;
+    opacity: 56%;
+}
+.login__group__input:hover{
+    background-color: rgba(21, 21, 130, 0.244);
+    border: 2px solid white;
+}
+
+ 
+.login__sign-in {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: #f6f3f3;
+    background: #3d3fc2;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}    
+.forgotpass
+{
+    color: #aeb3b3;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 17px;
+    
+}
+.forgottext
+{
+    color: #e3e5e5  ;
+}
+.forgottext:hover
+{
+text-decoration: underline;
+color: #aeb3b3;
+}
+.checkme{
+    width: 30px;
+    height: 19px;
+    accent-color:rgba(255, 255, 255, 0.875) ;
+    border: none;
+
+ }
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a:hover {
+    color: #cdd6e0;
+}
+
+.form-text {
+    margin-top: 50px;
+    display: flex;
+    color: #f4f4f8;
+    font-size: 1.01rem;
+    font-weight: bolder;
+}
+    
+  
+.signup {
+        color: #fff;
+        font-size: 0.9rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+.signup:hover
+{
+    text-decoration:underline;
+    color: white;
+}
